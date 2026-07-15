@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <application android:label="PoC">
+        <activity android:name=".MainActivity" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <receiver android:name=".MyReceiver" android:exported="true">
+            <intent-filter>
+                <action android:name="com.samsung.android.oneconnect.mde.DEVICE_REMOVED" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.samsung.android.wearable.launchactivity" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.samsung.android.oneconnect.LAUNCH_D2D_PLUGIN" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.sec.android.screensharing.DLNA_CONNECTION_REQUEST" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.samsung.android.oneconnect.sasdk.response" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="popup_showing_success" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.android.systemui.update_qs_remote_views" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.android.desktopsystemui.update_qs_remote_views" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.samsung.android.oneconnect.devicelogresult" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.samsung.android.oneconnect.action.DEVELOPER_ID_CHANGED" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.samsung.android.watchmanager.ACTION_HM_REQUEST_DISCONNECT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.samsung.android.qconnect.SSHARE_WIDGET_CHANGED" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.samsung.android.oneconnect.action.CONTENTS_SHARING.TRIGGERED_APP_INFORMATION" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.samsung.android.oneconnect.SHOW_PERSISTENT_BANNER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.samsung.android.oneconnect.CONTINUITY_ONGOING_ACTION_DONE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="strongman_success" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.samsung.android.intent.action.RESPONSE_BACKUP_BTLIST" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.samsung.android.oneconnect.internal_action.dev_restart" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.samsung.android.qconnect.easysetup.action.EASYSETUP_REGISTERED_DEVICES" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.samsung.android.oneconnect.UPDATE_AUDIO_PATH_VIEW" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.samsung.android.intent.action.RESPONSE_RESTORE_BTLIST" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.samsung.android.oneconnect.mde.DEVICE_ADDED" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.samsung.android.appcessory.DEVICE_BATTERY_LEVEL_REQUEST" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.samsung.android.oneconnect.action.DEVICE_DELETED_BY_REGISTERED_ANOTHER_USER_PUSH_MESSAGE_RECEIVED" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.samsung.android.qconnect.easysetup.action.COMPLETE_EASYSETUP_TVOOBE_PLUGIN" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.samsung.android.wms.service.EXTERNALDISCONNECT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.samsung.android.oneconnect.REMOVE_PERSISTENT_BANNER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.samsung.android.oneconnect.action.INTERNAL_ACTION_PLUGIN_LAUNCH" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.samsung.intent.action.START_SMART_VIEW_MULTI_SELECT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.android.systemui.action.RESTART" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.samsung.android.oneconnect.action.PUSH_MESSAGE_RECEIVED" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.sec.android.screensharing.DLNA_DISCONNECTION_REQUEST" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.samsung.android.oneconnect.action.FAVORITE_SYNC_STATE_CHANGED" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.samsung.android.oneconnect.action.DEVICE_DELETED_PUSH_MESSAGE_RECEIVED" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.samsung.android.oneconnect.action.ACTION_CLOUD_SERVICE_CHANGED" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.samsung.android.oneconnect.ui.account.TwoStepVerificationWebViewActivity.action.TWO_STEP_VERIFICATION_FINSHED" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.samsung.android.appcessory.DEVICE_DISCONNECT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.samsung.android.oneconnect.ui.legalinfo.LegalInfoCheckerActivity.action.PP_RESULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.samsung.android.necklet.ACTION_CIRCLE_REQUEST_DISCONNECT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.samsung.android.oneconnect.mde.ACTION_RESULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.samsung.android.oneconnect.action.ALERT_PUSH_MESSAGE_RECEIVED" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.samsung.android.oneconnect.mde.DEVICE_UPDATED" />
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <application android:label="PoC">
+        <activity android:name=".MainActivity" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <receiver android:name=".MyReceiver" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.CHAMELEON_TELEPHONY_UPDATE" />
+                <action android:name="com.samsung.CSC_CHAMELEON_UPDATE_SETTINGS" />
+                <action android:name="com.sec.factory.aporiented.athandler.atpreconfg" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.samsung.sec.android.application.csc.chameleon_diag" />
+                <data android:scheme="android_secret_code" android:host="diag_msl" />
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>

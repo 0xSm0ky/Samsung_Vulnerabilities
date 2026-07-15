@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <application android:label="PoC">
+        <activity android:name=".MainActivity" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".InterceptActivity" android:exported="true">
+            <intent-filter android:priority="999">
+                <action android:name="com.samsung.android.scloud.app.activity.LAUNCH_PURCHASE_DETAIL" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter android:priority="999">
+                <action android:name="com.samsung.android.scloud.app.activity.LAUNCH_VERIFICATION_BY_EMAIL" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter android:priority="999">
+                <action android:name="com.samsung.android.scloud.app.activity.LAUNCH_BILLING_UPGRADE_PLAN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter android:priority="999">
+                <action android:name="com.samsung.android.scloud.app.activity.LAUNCH_THUMBNAIL_DETAIL_VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter android:priority="999">
+                <action android:name="com.samsung.android.scloud.app.activity.LAUNCH_DASHBOARD_DELETE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter android:priority="999">
+                <action android:name="com.samsung.android.scloud.app.activity.LAUNCH_VERIFICATION_BY_NOTI" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter android:priority="999">
+                <action android:name="com.samsung.android.scloud.app.activity.LAUNCH_AUTH_REQUEST_TRANSPARENT_VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter android:priority="999">
+                <action android:name="com.samsung.android.scloud.app.activity.LAUNCH_DETAIL_SYNC_SETTING" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter android:priority="999">
+                <action android:name="com.samsung.android.scloud.app.activity.LAUNCH_VERIFICATION_MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter android:priority="999">
+                <action android:name="com.msc.action.samsungaccount.mybenefitwebview" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <application android:label="PoC">
+        <activity android:name=".MainActivity" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".InterceptActivity" android:exported="true">
+            <intent-filter android:priority="999">
+                <action android:name="com.android.contacts.action.SET_EMERGENCY_MEDICAL" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter android:priority="999">
+                <action android:name="intent.action.IMPORT_SIM_CONTACT" />
+                <data android:mimeType="vnd.android.cursor.item/sim-contact" />
+                <data android:mimeType="*/*" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter android:priority="999">
+                <action android:name="intent.action.CONTACTS_INTEGRATED_SEARCH" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter android:priority="999">
+                <action android:name="intent.action.IMPORT_SIM2_CONTACT" />
+                <data android:mimeType="vnd.android.cursor.item/sim-contact" />
+                <data android:mimeType="*/*" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter android:priority="999">
+                <action android:name="com.samsung.contacts.action.SHOW_GROUP_DETAIL" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter android:priority="999">
+                <action android:name="com.sprint.zone.DSA_ACTIVITY" />
+                <data android:mimeType="vnd.sprint.zone/vnd.sprint.zone.main" />
+                <data android:mimeType="*/*" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter android:priority="999">
+                <action android:name="com.sprint.dsa.DSA_ACTIVITY" />
+                <data android:mimeType="vnd.sprint.dsa/vnd.sprint.dsa.main" />
+                <data android:mimeType="*/*" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter android:priority="999">
+                <action android:name="com.samsung.vvmapp.action.LAUNCH_VVM" />
+                <data android:scheme="content" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter android:priority="999">
+                <action android:name="com.samsung.contacts.action.VIEW_CONTACT" />
+                <data android:scheme="content" />
+                <data android:mimeType="vnd.android.cursor.item/contact" />
+                <data android:mimeType="*/*" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter android:priority="999">
+                <action android:name="com.sec.android.app.firewall.action.CONFIG_DIALOG" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>
