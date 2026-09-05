@@ -34,7 +34,7 @@
 # Description
 
 Oversecured report:
-![](Oversecured_report.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/013.%20CallBGProvider%20—%20Gaining%20access%20to%20arbitrary_%20content%20providers%20as%20UID%20android.uid.phone/Oversecured_report.png)
 
 The `com.samsung.android.callbgprovider.CallBGProvider` provider is exported and allows any third-party apps installed on the same device to interact with it. Oversecured found a vulnerability that an attacker could first call the `insert()` method and write an arbitrary URI to Shared Preferences and then call the `call()` method with the `do_copy` parameter. As a result, the URI that the attacker controls will get into the call to `Context.grantUriPermission()`, which will result in the transfer of read/write permissions to the attacker.
 

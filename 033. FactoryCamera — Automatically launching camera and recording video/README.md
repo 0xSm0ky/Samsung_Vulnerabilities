@@ -34,7 +34,7 @@
 # Description
 
 Oversecured report:
-![](Oversecured_report.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/033.%20FactoryCamera%20—%20Automatically%20launching%20camera%20and%20recording%20video/Oversecured_report.png)
 
 During the vulnerability analysis, it turned out that the attacker could trigger this functionality and make this priviledged app automatically start recording video from the camera, saving the result to an SD card.
 

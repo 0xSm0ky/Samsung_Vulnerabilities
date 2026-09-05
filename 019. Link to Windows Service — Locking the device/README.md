@@ -34,8 +34,8 @@
 # Description
 
 Oversecured found an exported service with exposed AIDL interfaces:
-![](Oversecured_report_1.png)
-![](Oversecured_report_2.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/019.%20Link%20to%20Windows%20Service%20—%20Locking%20the%20device/Oversecured_report_1.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/019.%20Link%20to%20Windows%20Service%20—%20Locking%20the%20device/Oversecured_report_2.png)
 
 Depending on the flags transmitted, the app locked the device.
 

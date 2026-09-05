@@ -34,7 +34,7 @@
 # Description
 
 Oversecured report:
-![](Oversecured_report.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/108.%20Settings%20—%20Enabling%20Bluetooth%20via%20DevicePickerActivity/Oversecured_report.png)
 
 In the Settings app, patched by Samsung, in the file `com/android/settings/bluetooth/DevicePickerActivity.java` Samsung added automatic enabling of Bluetooth.
 

@@ -34,7 +34,7 @@
 # Description
 
 Oversecured report:
-![](Oversecured_report.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/114.%20NFC%20—%20Korea%20and%20China%20-%20Enabling%20NDEF%20pushes%20and%20reader/Oversecured_report.png)
 
 Oversecured found in the NFC app patched by Samsung, in the file `com/samsung/android/nfc/quicktile/NfcTile.java` dynamically registered unprotected receiver on Korean and Chinese devices. When processing the `com.samsung.android.nfc.modestandard` action, it automatically calls `INfcAdapter.readerEnable()` and `INfcAdapter.enableNdefPush()`. These actions require administrator permissions.
 

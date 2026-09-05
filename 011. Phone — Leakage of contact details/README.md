@@ -34,9 +34,9 @@
 # Description
 
 Oversecured found several uses of implicit intents when launching activities:
-![](Oversecured_report_1.png)
-![](Oversecured_report_2.png)
-![](Oversecured_report_3.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/011.%20Phone%20—%20Leakage%20of%20contact%20details/Oversecured_report_1.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/011.%20Phone%20—%20Leakage%20of%20contact%20details/Oversecured_report_2.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/011.%20Phone%20—%20Leakage%20of%20contact%20details/Oversecured_report_3.png)
 ![](Oversecured_report_4.png)
 ![](Oversecured_report_5.png)
 ![](Oversecured_report_6.png)

@@ -34,7 +34,7 @@
 # Description
 
 Oversecured report:
-![](Oversecured_report.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/101.%20Framework%20—%20Disabling%20device%20multisound/Oversecured_report.png)
 
 Oversecured found in the file `com/android/server/audio/AudioService.java` the registration of an unprotected dynamic receiver. When receiving the `android.intent.action.TurnOff_MultiSound` action, it automatically disables the device multisound.
 

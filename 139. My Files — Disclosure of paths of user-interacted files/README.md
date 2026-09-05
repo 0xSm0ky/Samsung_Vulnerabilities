@@ -34,7 +34,7 @@
 # Description
 
 Oversecured report:
-![](Oversecured_report.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/139.%20My%20Files%20—%20Disclosure%20of%20paths%20of%20user-interacted%20files/Oversecured_report.png)
 
 Oversecured found uses of implicit intents in the My Files app when sending broadcasts. They contained data about user activity, such as file paths with which the user interacted. These intents could be intercepted by any third-party apps installed on the same device.
 

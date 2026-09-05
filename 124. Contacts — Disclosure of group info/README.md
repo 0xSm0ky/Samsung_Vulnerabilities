@@ -34,7 +34,7 @@
 # Description
 
 Oversecured report:
-![](Oversecured_report.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/124.%20Contacts%20—%20Disclosure%20of%20group%20info/Oversecured_report.png)
 
 Oversecured found the Contacts app using implicit intents to launch activities. They contained contact group info. These intents could be intercepted by any third-party apps installed on the same device.
 

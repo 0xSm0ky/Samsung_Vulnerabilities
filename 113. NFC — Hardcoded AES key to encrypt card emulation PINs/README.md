@@ -34,7 +34,7 @@
 # Description
 
 Oversecured found in the NFC app, patched by Samsung, in the file `com/samsung/android/nfc/gpfelica/cardemulation/PinCache.java` a hardcoded AES key:
-![](Oversecured_report.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/113.%20NFC%20—%20Hardcoded%20AES%20key%20to%20encrypt%20card%20emulation%20PINs/Oversecured_report.png)
 
 This AES key corresponded to the value of `TO_HEX_STRING(MD5("PIN"))`, i.e. the constant `"PIN"` is hashed using MD5 and then the array of bytes is translated into a string. This AES key was used to encrypt and decrypt card emulation PINs.
 

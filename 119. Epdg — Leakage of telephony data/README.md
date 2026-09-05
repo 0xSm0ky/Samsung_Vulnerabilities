@@ -34,7 +34,7 @@
 # Description
 
 Oversecured report:
-![](Oversecured_report.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/119.%20Epdg%20—%20Leakage%20of%20telephony%20data/Oversecured_report.png)
 
 Oversecured found multiple uses of implicit intents in the Epdg app to send broadcasts. They contained sensitive data such as APN types, SSIDs, DTD latencies. These intents could have been intercepted by any third-party apps installed on the same device.
 

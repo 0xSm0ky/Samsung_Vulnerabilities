@@ -34,7 +34,7 @@
 # Description
 
 Oversecured report:
-![](Oversecured_report.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/024.%20Video%20Trimmer%20—%20Gaining%20access%20to%20arbitrary_%20content%20providers%20via%20MultiGridActivity/Oversecured_report.png)
 
 The app passes the attacker's intent back, which leads to the interception of URI permissions.
 

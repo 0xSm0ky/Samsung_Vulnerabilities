@@ -34,7 +34,7 @@
 # Description
 
 Oversecured report:
-![](Oversecured_report.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/093.%20Device%20care%20—%20Leakage%20of%20unused%20apps/Oversecured_report.png)
 
 Oversecured found the use of implicit intents in the Device care app to launch activities. These intents contained data about unused apps. They could have been intercepted by any third-party apps installed on the same device.
 

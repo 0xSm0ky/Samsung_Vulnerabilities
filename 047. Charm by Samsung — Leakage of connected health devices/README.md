@@ -34,7 +34,7 @@
 # Description
 
 Oversecured report:
-![](Oversecured_report.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/047.%20Charm%20by%20Samsung%20—%20Leakage%20of%20connected%20health%20devices/Oversecured_report.png)
 
 The provider was declared as follows:
 ```xml

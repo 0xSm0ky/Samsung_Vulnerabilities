@@ -34,7 +34,7 @@
 # Description
 
 Oversecured found an exported service `com.sec.android.app.dexonpc.discovery.DOPDiscoveryService` that exposed its AIDL interfaces:
-![](Oversecured_report.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/031.%20DeX%20for%20PC%20—%20Connecting%20to%20arbitrary%20PCs%20and%20sharing%20the%20device%20screen/Oversecured_report.png)
 
 The DeX for PC app is responsible for screen mirroring from a Samsung device to other devices such as a PC. The service provides APIs for the app, such as scanning the local network for available devices, connecting to them, etc. The problem was that this service was not protected in any way and any third-party app could unobtrusively scan the network and automatically leak the entire screen to the attacker's device, being in the same network with them.
 

@@ -34,7 +34,7 @@
 # Description
 
 Oversecured report:
-![](Oversecured_report.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/085.%20Phone%20—%20Leakage%20of%20voicemail%20phone%20numbers/Oversecured_report.png)
 
 Oversecured found in the Phone app in the file `com/samsung/telephony/phone/advanced/voicemail/SamsungVoiceMailMwiManager.java` sending implicit intents with action `com.samsung.accessory.intent.action.ALERT_NOTIFICATION_ITEM`, which contained the phone voicemail number. These intents could be intercepted by any third-party apps installed on the same device.
 

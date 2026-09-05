@@ -34,7 +34,7 @@
 # Description
 
 Oversecured report:
-![](Oversecured_report.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/040.%20Bixby%20Vision%20—%20Theft%20of%20arbitrary%20files/Oversecured_report.png)
 
 The exported activity `com.samsung.android.visionintelligence.viImageActivity` took an external string parameter `IMAGE_URI`, which it treated as a URI and saved content from there to the SD card at the path `/sdcard/Android/data/com.samsung.android.visionintelligence/files/IntelligentCam/{yyyyymmdd}/{yyyyymmdd}-{hhmmss}.jpg`. Since the SD card is a world-readable directory, an attacker could make arbitrary files be copied there and then read them.
 

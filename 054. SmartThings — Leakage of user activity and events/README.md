@@ -34,9 +34,9 @@
 # Description
 
 Oversecured found multiple uses of implicit intents to send broadcasts that contain sensitive information:
-![](Oversecured_report_1.png)
-![](Oversecured_report_2.png)
-![](Oversecured_report_3.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/054.%20SmartThings%20—%20Leakage%20of%20user%20activity%20and%20events/Oversecured_report_1.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/054.%20SmartThings%20—%20Leakage%20of%20user%20activity%20and%20events/Oversecured_report_2.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/054.%20SmartThings%20—%20Leakage%20of%20user%20activity%20and%20events/Oversecured_report_3.png)
 
 These intents disclosed data about the connected devices to the Samsung smarthome, their statuses, Bluetooth addresses, used cloud services and so on.
 

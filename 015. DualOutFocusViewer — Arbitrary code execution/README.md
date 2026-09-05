@@ -34,7 +34,7 @@
 # Description
 
 Oversecured report:
-![](Oversecured_report.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/015.%20DualOutFocusViewer%20—%20Arbitrary%20code%20execution/Oversecured_report.png)
 
 Oversecured found that under certain conditions, the app copies native library files from the public directory to the internal directory and then loads them using `System.load()`.
 
@@ -230,4 +230,4 @@ After running Proof of Concept we got the following logs:
 ```
 
 We also checked with ADB that the code was executed:
-![](Result.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/015.%20DualOutFocusViewer%20—%20Arbitrary%20code%20execution/Result.png)

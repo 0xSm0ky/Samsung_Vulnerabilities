@@ -34,7 +34,7 @@
 # Description
 
 Oversecured report:
-![](Oversecured_report.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/052.%20SmartThings%20—%20Remote%20token%20leakage/Oversecured_report.png)
 
 Oversecured found that the app handles deeplinks. One of them causes it to automatically load the `url` parameter in the embedded WebView. In addition, this WebView contains JavaScript interfaces that expose the user's token to the Samsung account.
 

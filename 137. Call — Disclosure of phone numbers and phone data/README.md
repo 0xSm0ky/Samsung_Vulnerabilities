@@ -34,7 +34,7 @@
 # Description
 
 Oversecured report:
-![](Oversecured_report.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/137.%20Call%20—%20Disclosure%20of%20phone%20numbers%20and%20phone%20data/Oversecured_report.png)
 
 Oversecured found the Call app using implicit intents when lauching activities. They disclosed sensitive data such as phone numbers, call start times, and device data. These intents could intercept any app installed on the same device.
 

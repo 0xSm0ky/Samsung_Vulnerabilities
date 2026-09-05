@@ -34,7 +34,7 @@
 # Description
 
 Oversecured report:
-![](Oversecured_report.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/132.%20Call%20—%20Leakage%20of%20called%20phone%20numbers/Oversecured_report.png)
 
 Oversecured found the NFC app using implicit intents in the `com/android/incallui/viewmodelimpl/executor/card/DisplayRcsCallContentExecutorImpl.java` file to send broadcasts with the `com.samsung.crane.callcomposer.IMPORTANCETOGGLE` action. They contained the called phone number.
 

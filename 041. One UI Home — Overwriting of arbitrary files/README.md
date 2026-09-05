@@ -34,7 +34,7 @@
 # Description
 
 Oversecured report:
-![](Oversecured_report.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/041.%20One%20UI%20Home%20—%20Overwriting%20of%20arbitrary%20files/Oversecured_report.png)
 
 The exported `com.android.launcher3.LauncherProvider` method `call()` handled different commands. The `put_restore_file` command checked if the passed `Bundle` key contained `.exml`. In this case this key was used as a relative path, vulnerable to path-traversal, and the byte array value as file contents.
 

@@ -34,7 +34,7 @@
 # Description
 
 Oversecured report:
-![](Oversecured_report.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/009.%20Contacts%20Storage%20—%20Theft%20and%20overwrite%20of%20arbitrary%20files%20via%20CallLogProvider/Oversecured_report.png)
 
 In the Contacts Storage system app, the exported `com.android.providers.contacts.CallLogProvider` provider handles incoming URIs insecurely in the `openFile()` method. The point is that the `Uri.getLastPathSegment()` method returns a decoded version of the last segment, which the app insecurely concatenates to the base path.
 

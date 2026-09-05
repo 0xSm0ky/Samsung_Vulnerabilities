@@ -34,8 +34,8 @@
 # Description
 
 Oversecured found multiple uses of implicit intents to start activities:
-![](Oversecured_report_1.png)
-![](Oversecured_report_2.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/053.%20SmartThings%20—%20Leakage%20of%20device%20info,%20settings,%20and%20auth%20tokens/Oversecured_report_1.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/053.%20SmartThings%20—%20Leakage%20of%20device%20info,%20settings,%20and%20auth%20tokens/Oversecured_report_2.png)
 
 These intents may have been intercepted by third-party apps installed on the same device. This is dangerous because the intents contain sensitive user data, such as tokens, device data, and user settings.
 

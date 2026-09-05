@@ -34,7 +34,7 @@
 # Description
 
 Oversecured report:
-![](Oversecured_report.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/046.%20Samsung%20Internet%20Browser%20—%20Leakage%20of%20picked%20bookmarks%20and%20history%20URLs/Oversecured_report.png)
 
 The app returned sensitive data that the user interacted with to the attacking app. Examples are bookmarks that the user clicked on.
 

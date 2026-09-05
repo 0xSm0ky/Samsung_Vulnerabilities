@@ -34,7 +34,7 @@
 # Description
 
 Oversecured report:
-![](Oversecured_report.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/050.%20Galaxy%20Wearable%20—%20Token%20leakage%20on%20non-Samsung%20devices/Oversecured_report.png)
 
 Oversecured found the use of implicit intents to send broadcasts that contained sensitive information. One of the intents revealed a user token to access a Samsung account when the app was launched on a non-Samsung device.
 

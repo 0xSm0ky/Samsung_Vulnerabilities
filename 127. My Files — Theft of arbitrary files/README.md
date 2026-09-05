@@ -34,7 +34,7 @@
 # Description
 
 Oversecured report:
-![](Oversecured_report.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/127.%20My%20Files%20—%20Theft%20of%20arbitrary%20files/Oversecured_report.png)
 
 Oversecured found that the My Files app passes data in the exported activity `com.sec.android.app.myfiles.external.ui.PickerActivity` to `Activity.setResult()`. While investigating, it turned out that the app passes files to the attacker, but it also adds the `Intent.FLAG_GRANT_READ_URI_PERMISSION` flag. Moreover, the attacker can control the file path through the `uri` parameter. This leads to the theft of arbitrary files. For example, an attacker could use this vulnerability to steal files containing various credentials of services added to the app.
 

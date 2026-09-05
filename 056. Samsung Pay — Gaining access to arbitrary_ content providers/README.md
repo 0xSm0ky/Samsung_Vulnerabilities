@@ -34,7 +34,7 @@
 # Description
 
 Oversecured report:
-![](Oversecured_report.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/056.%20Samsung%20Pay%20—%20Gaining%20access%20to%20arbitrary_%20content%20providers/Oversecured_report.png)
 
 Oversecured found multiple uses of implicit intents to create `PendingIntent` objects for notifications without using the `PendingIntent.FLAG_IMMUTABLE` flag. The attacker's app, if it had access to app notifications, could intercept them and redirect them to its activity, before making it grant content providers access permissions with the `android:grantUriPermissions="true"` flag, if the app was running on devices running Android SDK 24-30.
 

@@ -34,7 +34,7 @@
 # Description
 
 Oversecured found the exported `com.samsung.android.app.sharelive.linkexportservice.SimpleSharingExportService` service that contained the exposed AIDL interfaces:
-![](Oversecured_report.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/038.%20Quick%20Share%20—%20Bypassing%20permissions%20to%20SimpleSharingExportService%20and%20stealing%20arbitrary%20files,%20contacts,%20and%20data%20from%20arbitrary%20providers/Oversecured_report.png)
 
 This internal service is used to shear files and URIs that are uploaded to the Samsung cloud. Judging by the checks in the code, only internal Samsung apps were able to interact with it. However, we found an authorization bug that allowed any app to upload any files to the Samsung cloud and access them.
 

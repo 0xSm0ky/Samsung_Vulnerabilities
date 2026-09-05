@@ -34,7 +34,7 @@
 # Description
 
 Oversecured report:
-![](Oversecured_report.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/104.%20Framework%20—%20Disconnecting%20Wi-Fi%20display/Oversecured_report.png)
 
 Oversecured found in the `com/android/server/display/WifiDisplayController.java` file the unprotected dynamic receiver registration. Samsung added its additional action `android.net.wifi.p2p.REQUEST_STATE_CHANGE` which is missing in AOSP. As you can see in the vulnerability screenshot, Oversecured didn't highlight the use of other actions such as:
 - `android.net.wifi.p2p.STATE_CHANGED`

@@ -34,7 +34,7 @@
 # Description
 
 Oversecured report:
-![](Oversecured_report.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/091.%20Device%20care%20—%20Enabling%20and%20disabling%20auto%20restart/Oversecured_report.png)
 
 Oversecured found a handling of the action `com.samsung.android.sm.ACTION_AUTO_RESET_SETTING` in the Device care app. Depending on the externally passed `turn on off auto restart` parameter, the app either enabled auto restart or disabled it.
 

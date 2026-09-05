@@ -34,7 +34,7 @@
 # Description
 
 Oversecured found that the Settings app logs sensitive APN settings data, including the password:
-![](Oversecured_report.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/129.%20Settings%20—%20Logging%20APN%20settings/Oversecured_report.png)
 
 **Proof of Concept**
 

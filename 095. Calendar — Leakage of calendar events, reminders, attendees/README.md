@@ -34,7 +34,7 @@
 # Description
 
 Oversecured report:
-![](Oversecured_report.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/095.%20Calendar%20—%20Leakage%20of%20calendar%20events,%20reminders,%20attendees/Oversecured_report.png)
 
 Oversecured found use of implicit intents in the Calendar app that exposed sensitive user data. For example, in the file `com/samsung/android/app/calendar/view/invitation/SelectResponseHelper.java` an implicit intent that granted access to events, reminders, attendees, and so on to the recipient.
 

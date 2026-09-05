@@ -34,7 +34,7 @@
 # Description
 
 Oversecured found the following vulnerability:
-![](Oversecured_report.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/003.%20Galaxy%20Themes%20Service%20—%20Uninstalling%20arbitrary%20apps/Oversecured_report.png)
 
 The `com.samsung.android.thememanager.ThemeManagerService` service was exported and allowed any third-party apps to communicate with it. When the attacker provided the `com.samsung.android.theme.action.SIDELOAD_AOD_END` action, the app received the `extra_package` value and passed it to `PackageManager.deletePackage()`. This allowed an unprivileged attacker to delete any apps installed on the device.
 

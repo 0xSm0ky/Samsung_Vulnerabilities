@@ -34,7 +34,7 @@
 # Description
 
 Oversecured report:
-![](Oversecured_report.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/083.%20Phone%20calls%20—%20Autoswitching%20between%20-10000%20and%200%20users/Oversecured_report.png)
 
 Oversecured found in the Phone calls app in the file `com/samsung/server/telelecom/advancedcall/multinumber/SamsungTwoPhoneModeConversionDialog.java` an automatic switch between `0` and `-10000` user profiles when the user picks not to show the dialog anymore.
 

@@ -34,7 +34,7 @@
 # Description
 
 Oversecured report:
-![](Oversecured_report.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/080.%20Settings%20—%20Setting%20auto%20power-up%20time/Oversecured_report.png)
 
 Oversecured found a receiver in the Settings app that handles the `com.samsung.sec.android.clockpackage.AUTO_POWER_UP` action. It would get the value of `Alarm_Power_Up_Time` and write it to the system settings. This allowed any third-party app installed on the same device to set an arbitrary power-up time.
 

@@ -34,7 +34,7 @@
 # Description
 
 Oversecured report:
-![](Oversecured_report.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/090.%20Device%20care%20—%20Enabling%20and%20disabling%20power%20saving/Oversecured_report.png)
 
 Oversecured found a handling of the action `com.samsung.android.sm.ACTION_BATTERY_SAVER_SETTINGS` in the Device care app. Depending on the external parameter `turn on off power saving mode`, the app either turned power saving on or off.
 

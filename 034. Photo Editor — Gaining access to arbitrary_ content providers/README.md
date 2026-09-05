@@ -34,7 +34,7 @@
 # Description
 
 Oversecured report:
-![](Oversecured_report.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/034.%20Photo%20Editor%20—%20Gaining%20access%20to%20arbitrary_%20content%20providers/Oversecured_report.png)
 
 The app passed the attacker's intent to `Activity.setResult()`, which led to interception of access to arbitrary content providers with `android:grantUriPermissions="true"` that the app had access to.
 

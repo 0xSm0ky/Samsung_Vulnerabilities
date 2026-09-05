@@ -34,7 +34,7 @@
 # Description
 
 Oversecured found in the Epdg app logging sensitive data such as user location and PLMN values:
-![](Oversecured_report.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/120.%20Epdg%20—%20Logging%20location,%20PLMN%20values/Oversecured_report.png)
 
 **Proof of Concept**
 

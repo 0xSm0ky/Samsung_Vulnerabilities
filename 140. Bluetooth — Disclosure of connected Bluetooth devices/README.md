@@ -34,9 +34,9 @@
 # Description
 
 Oversecured found uses of implicit intents in the Bluetooth app when sending broadcasts:
-![](Oversecured_report_1.png)
-![](Oversecured_report_2.png)
-![](Oversecured_report_3.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/140.%20Bluetooth%20—%20Disclosure%20of%20connected%20Bluetooth%20devices/Oversecured_report_1.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/140.%20Bluetooth%20—%20Disclosure%20of%20connected%20Bluetooth%20devices/Oversecured_report_2.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/140.%20Bluetooth%20—%20Disclosure%20of%20connected%20Bluetooth%20devices/Oversecured_report_3.png)
 
 This app was developed at AOSP, but patched at Samsung. In the file `com/samsung/bt/bluetoothcast/mcm/BluetoothCastAdapterService.java` Samsung added sending implicit broadcasts with actions:
 - `com.samsung.android.bluetooth.cast.device.action.FOUND`

@@ -34,7 +34,7 @@
 # Description
 
 Oversecured report:
-![](Oversecured_report.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/123.%20Samsung%20Flow%20—%20Disclosure%20of%20mirrored%20data/Oversecured_report.png)
 
 Oversecured found multiple uses of implicit intents in the Samsung Flow app when sending broadcasts. They contained sensitive data, such as shared file data, Bluetooth states, etc. These intents could be intercepted by any third-party apps installed on the same device.
 

@@ -34,7 +34,7 @@
 # Description
 
 Oversecured found multiple uses of implicit intents that could have been intercepted by third-party apps installed on the same device::
-![](Oversecured_report.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/044.%20Contacts%20—%20Leakage%20of%20contact%20data/Oversecured_report.png)
 
 These intents contained data on user contacts and also passed the rights to read from the content provider to the contacts.
 

@@ -34,7 +34,7 @@
 # Description
 
 Oversecured report:
-![](Oversecured_report.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/079.%20Settings%20—%20Auto%20enabling%20Bluetooth%20via%20CheckBluetoothStateActivity/Oversecured_report.png)
 
 Oversecured found an unprotected dynamically registered receiver in the Settings app in the `com/samsung/android/settings/bluetooth/CheckBluetoothStateActivity.java` file. It automatically enables Bluetooth when the attacker provides the `com.samsung.intent.action.BLUETOOTH_KEYGUARD_UNLOCK` action. The enabling also happens during the launch of this activity.
 

@@ -34,7 +34,7 @@
 # Description
 
 Oversecured report:
-![](Oversecured_report.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/126.%20My%20Files%20—%20Theft%20and%20overwrite%20of%20arbitrary%20files/Oversecured_report.png)
 
 Oversecured found the My Files app launching implicit intents with the `com.sec.android.app.myfiles.PICK_DATA` action. They can be intercepted by any third-party apps installed on the same device. As seen in the screenshots from Oversecured, the app copies content from arbitrary URIs received in `Activity.onActivityResult()` to the `/sdcard/Download` directory. The attacker can also control the file name via the `_display_name` parameter, which is vulnerable to path-traversal.
 

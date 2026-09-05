@@ -34,7 +34,7 @@
 # Description
 
 Oversecured report:
-![](Oversecured_report.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/086.%20NFC%20—%20Enabling%20and%20disabling%20NFC/Oversecured_report.png)
 
 Oversecured found a dynamic registration of an unprotected receiver in the NFC app in the `com/samsung/android/nfc/NfcFindMyMobile.java` file. It handled the following actions:
 - `com.samsung.internal.policy.impl.Keyguard.PCW_UNLOCKED`, enables NFC

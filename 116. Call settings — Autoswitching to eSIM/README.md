@@ -34,7 +34,7 @@
 # Description
 
 Oversecured report:
-![](Oversecured_report.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/116.%20Call%20settings%20—%20Autoswitching%20to%20eSIM/Oversecured_report.png)
 
 Oversecured found in the Call settings app in the `com/samsung/android/app/telephonyui/netsettings/ui/simcardmanager/SimCardMgrActivity.java` file processing of different UIs through the `root_key` parameter. If the attacker provides the `SIMCARD_ESIM_ADD_MOBILE_PLAN` value, the fragment `com.samsung.android.app.telephonyui.netsettings.ui.preference.EsimAddPlanFragment` will be launched. At launch, it will automatically switch the device to use eSIM if it's present on the device.
 

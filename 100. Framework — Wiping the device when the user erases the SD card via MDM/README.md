@@ -34,7 +34,7 @@
 # Description
 
 Oversecured found the ability to wipe the entire device in the `com/android/server/enterprise/security/SecurityPolicy.java` file when the user erases the SD card via MDM:
-![](Oversecured_report.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/100.%20Framework%20—%20Wiping%20the%20device%20when%20the%20user%20erases%20the%20SD%20card%20via%20MDM/Oversecured_report.png)
 
 **Proof of Concept**
 

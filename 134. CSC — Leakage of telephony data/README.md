@@ -34,7 +34,7 @@
 # Description
 
 Oversecured report:
-![](Oversecured_report.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/134.%20CSC%20—%20Leakage%20of%20telephony%20data/Oversecured_report.png)
 
 Oversecured found the CSC app using implicit intents when sending broadcasts. They contained sensitive data like network and carrier data. These intents could have been intercepted by third-party apps installed on the same device.
 

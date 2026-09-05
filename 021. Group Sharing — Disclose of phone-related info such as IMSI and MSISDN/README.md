@@ -34,7 +34,7 @@
 # Description
 
 Oversecured found the app using implicit intents to send broadcasts:
-![](Oversecured_report.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/021.%20Group%20Sharing%20—%20Disclose%20of%20phone-related%20info%20such%20as%20IMSI%20and%20MSISDN/Oversecured_report.png)
 
 These broadcasts contained private data such as IMSI and MSISDN. As of SDK 29, access to them is protected by the permission `android.permission.READ_PRIVILEGED_PHONE_STATE`.
 

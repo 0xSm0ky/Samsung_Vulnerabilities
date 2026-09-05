@@ -34,7 +34,7 @@
 # Description
 
 Oversecured found 30 triggers to send the intent back to the attacker, here are some of them:
-![](Oversecured_report.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/043.%20Samsung%20account%20—%20Gaining%20access%20to%20arbitrary_%20content%20providers/Oversecured_report.png)
 
 This vulnerability caused read/write access permissions to arbitrary content providers to be passed to the attacker's calling app.
 

@@ -34,7 +34,7 @@
 # Description
 
 Oversecured report:
-![](Oversecured_report.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/122.%20Daily%20Board%20—%20Disclosure%20of%20user%20location/Oversecured_report.png)
 
 Oversecured found the Daily Board app using implicit intents in the `com/samsung/android/homemode/ui/widget/weather/WeatherUtils.java` file. They leaked the location where the user checked the weather forecast. These intents could intercept any app installed on the same device.
 

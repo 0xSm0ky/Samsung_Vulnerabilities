@@ -34,7 +34,7 @@
 # Description
 
 Oversecured found a hardcoded AES key in the Weather app in the `com/samsung/android/weather/infrastructure/debug/SLog.java` file:
-![](Oversecured_report.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/135.%20Weather%20—%20Hardcoded%20AES%20key%20for%20encrypted%20logs%20containing%20sensitive%20data/Oversecured_report.png)
 
 This AES key was used to encrypt sensitive data and then log it. These logs contained the user's location.
 

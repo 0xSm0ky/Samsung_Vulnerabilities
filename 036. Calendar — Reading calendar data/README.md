@@ -34,7 +34,7 @@
 # Description
 
 Oversecured report:
-![](Oversecured_report.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/036.%20Calendar%20—%20Reading%20calendar%20data/Oversecured_report.png)
 
 Oversecured also found many other vulnerabilities in the `com.samsung.android.app.calendar.model.settings.provider.PreferenceProvider` provider. The thing is that this provider acts as a proxy to access the `CalendarContract.Events.CONTENT_URI` system provider to store calendar events, which requires `dangerous` permission. But this proxy provider requires only `normal` permission, which reduces security.
 

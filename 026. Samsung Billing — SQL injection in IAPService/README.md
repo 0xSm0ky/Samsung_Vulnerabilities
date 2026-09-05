@@ -34,7 +34,7 @@
 # Description
 
 Oversecured report:
-![](Oversecured_report.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/026.%20Samsung%20Billing%20—%20SQL%20injection%20in%20IAPService/Oversecured_report.png)
 
 Oversecured found an exported `com.sec.android.app.billing.iap.service.IAPService` service. One of the exposed AIDL interfaces insecurely concatenates data and SQL query leading to SQL injection.
 

@@ -34,7 +34,7 @@
 # Description
 
 Oversecured report:
-![](Oversecured_report.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/131.%20NFC%20—%20Leakage%20of%20card%20emulation%20passwords/Oversecured_report.png)
 
 Oversecured found the NFC app using implicit intents in the `com/samsung/android/nfc/gpfelica/cardemulation/PasswordCheckDialog.java` file to send broadcasts. They contained the user-entered password for NFC card emulation.
 

@@ -34,9 +34,9 @@
 # Description
 
 Oversecured found several uses of implicit intents in the Galaxy Themes app when starting activities:
-![](Oversecured_report_1.png)
-![](Oversecured_report_2.png)
-![](Oversecured_report_3.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/010.%20Galaxy%20Themes%20—%20Token%20leakage/Oversecured_report_1.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/010.%20Galaxy%20Themes%20—%20Token%20leakage/Oversecured_report_2.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/010.%20Galaxy%20Themes%20—%20Token%20leakage/Oversecured_report_3.png)
 
 During research it turned out that these intents are launched when:
 a. The app `com.samsung.android.mobileservice` is not installed (the device is not a Samsung)

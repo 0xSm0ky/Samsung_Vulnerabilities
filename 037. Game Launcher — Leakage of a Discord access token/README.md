@@ -34,7 +34,7 @@
 # Description
 
 Oversecured found the use of implicit intents:
-![](Oversecured_report.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/037.%20Game%20Launcher%20—%20Leakage%20of%20a%20Discord%20access%20token/Oversecured_report.png)
 
 One use disclosed the access token of an attached Discord account to any third-party apps installed on the same device. This code was triggered when the user logged into their profile and clicked on the attached Discord account.
 

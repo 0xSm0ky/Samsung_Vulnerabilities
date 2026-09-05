@@ -34,7 +34,7 @@
 # Description
 
 Oversecured found the following vulnerability in the Settings app:
-![](Oversecured_report.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/001.%20Settings%20—%20Intent%20redirection%20with%20system%20privilege/Oversecured_report.png)
 
 Samsung extended the `com.android.settings.homepage.SettingsHomepageActivity` class and added custom code that allowed a third-party app to start arbitrary activities. In a regular app, this would lead to the ability to access only within it, but since Settings has UID 1000 (`system`), the vulnerability led to access to any non-exported activities of any apps. This type of attack was previously called LaunchAnyWhere.
 

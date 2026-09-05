@@ -34,8 +34,8 @@
 # Description
 
 Oversecured report:
-![](Oversecured_report_1.png)
-![](Oversecured_report_2.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/048.%20Charm%20by%20Samsung%20—%20Disclosing%20connected%20health%20device%20states/Oversecured_report_1.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/048.%20Charm%20by%20Samsung%20—%20Disclosing%20connected%20health%20device%20states/Oversecured_report_2.png)
 
 The app used implicit intents to broadcast the statuses of connected Bluetooth devices. Any third-party apps installed on the same device could listen to them without having any permissions.
 

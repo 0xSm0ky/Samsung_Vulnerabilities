@@ -34,7 +34,7 @@
 # Description
 
 Oversecured report:
-![](Oversecured_report.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/094.%20Device%20care%20—%20Changing%20CPU%20and%20enhanced%20processing%20values/Oversecured_report.png)
 
 Oversecured found an unprotected dynamically registered receiver in the Device care app in the file `com/samsung/android/sm/enhancedcpu/ProcessingSpeedDcTileBridge.java`. It handles the `com.samsung.android.sm.ACTION_ENHANCED_PROCESSING_TILE` action and sets the global settings value `enhanced_processing` from the attacker-controlled `mode` value. When `mode` is 0 or 1, the value will be set to 0. When 2, it will be set to 1.
 

@@ -34,7 +34,7 @@
 # Description
 
 Oversecured report:
-![](Oversecured_report.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/118.%20Epdg%20—%20Verizon%20-%20Enabling%20and%20disabling%20Wi-Fi%20calls/Oversecured_report.png)
 
 Oversecured found an unprotected dynamically registered reviser in the Epdg app in the `com/sec/epdg/IntentReceiver.java` file. When processing the intent, in case of the `com.sec.commands.ipcall.action_ip_setting_change` action it sets the state of Wi-Fi calls turned on from the parameter `com.sec.commands.ipcall.state` received from the attacker.
 

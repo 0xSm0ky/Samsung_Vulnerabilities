@@ -34,7 +34,7 @@
 # Description
 
 Oversecured found the use of implicit intents in the app when launching activities that revealed information about connected streaming devices:
-![](Oversecured_report.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/023.%20Smart%20View%20—%20Leakage%20of%20connection%20data%20about%20streamed%20devices/Oversecured_report.png)
 
 **Proof of Concept**
 

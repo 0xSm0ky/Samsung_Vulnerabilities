@@ -34,7 +34,7 @@
 # Description
 
 Oversecured report:
-![](Oversecured_report.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/133.%20EmergencyManagerService%20—%20Enabling%20emergency%20mode/Oversecured_report.png)
 
 Oversecured found in the EmergencyManagerService app in the `com/sec/android/emergencymode/service/EmergencyFactory.java` file a dynamic registration of an unprotected broadcast receiver. When it receives the `android.intent.action.EMERGENCY_KNOX_FORCE_CLOSED` action, it automatically enables emergency mode. However, the user must open the emergency mode screen to trigger to the code activating this broadcast receiver.
 

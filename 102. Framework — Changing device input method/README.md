@@ -34,7 +34,7 @@
 # Description
 
 Oversecured report:
-![](Oversecured_report.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/102.%20Framework%20—%20Changing%20device%20input%20method/Oversecured_report.png)
 
 Oversecured found in the `com/android/server/inputmethod/InputMethodManagerService.java` file the registration of an unprotected dynamic receiver. The attacker could change the device input method by providing its hashcode (using the field `InputMethodInfo.mSubtypeHashCode/mSubtypeId`) via the passed `android.view.inputmethod.InputMethodSubtype` object and by specifying the `com.sec.android.inputmethod.Subtype` action.
 

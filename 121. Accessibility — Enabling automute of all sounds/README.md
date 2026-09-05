@@ -34,7 +34,7 @@
 # Description
 
 Oversecured report:
-![](Oversecured_report.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/121.%20Accessibility%20—%20Enabling%20automute%20of%20all%20sounds/Oversecured_report.png)
 
 Oversecured found in the Accessibility app in the exported activity `com.samsung.accessibility.shortcut.MuteAllShortcut` automatic enabling automuting of all sounds. As soon as the activity is launched, it enables this setting without any action from the user.
 

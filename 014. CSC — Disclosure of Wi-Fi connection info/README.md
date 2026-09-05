@@ -34,7 +34,7 @@
 # Description
 
 Oversecured report:
-![](Oversecured_report.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/014.%20CSC%20—%20Disclosure%20of%20Wi-Fi%20connection%20info/Oversecured_report.png)
 
 The app used implicit and public intents to transmit Wi-Fi connection data. Non-privileged apps were able to capture these intents without permissions to access network information.
 

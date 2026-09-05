@@ -34,7 +34,7 @@
 # Description
 
 Oversecured report:
-![](Oversecured_report.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/012.%20CallBGProvider%20—%20Overwriting%20arbitrary%20files%20as%20UID%20android.uid.phone/Oversecured_report.png)
 
 During the research it turned out that the receiver `com.samsung.android.callbgprovider.bnr.CallBackgroungSmartSwitchReceiver` is exported and deals with exporting and importing backups. The main problem was that the `com.samsung.android.callbgprovider.bnr.utils.BnRDocumentStorageAccessHelper.moveUrisToDir()` method handled document URIs. The methods used from the Android Framework, such as `DocumentsContract.getDocumentId()`, are not path-traversal safe. Responses from these methods can be controlled by the attacker when they control the entire URI. However, the app used this data to form a file path where it wrote content from content providers that the attacker also controlled.
 

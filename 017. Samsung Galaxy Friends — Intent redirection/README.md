@@ -34,7 +34,7 @@
 # Description
 
 Oversecured discovered the following vulnerability:
-![](Oversecured_report.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/017.%20Samsung%20Galaxy%20Friends%20—%20Intent%20redirection/Oversecured_report.png)
 
 A receiver was registered in the process of installing apps on a Samsung Watch, which received broadcasts from any third-party apps installed on the same device. After that, it passed the intent controlled by the attacker to `Context.startActivity()`.
 

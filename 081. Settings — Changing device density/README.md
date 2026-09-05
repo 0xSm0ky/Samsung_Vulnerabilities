@@ -34,7 +34,7 @@
 # Description
 
 Oversecured report:
-![](Oversecured_report.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/081.%20Settings%20—%20Changing%20device%20density/Oversecured_report.png)
 
 Oversecured found a receiver in the Settings app that handles actions in the `com/samsung/android/settings/display/ScreenZoomSettingsReceiver.java` file:
 - `com.samsung.intent.action.UPDATE_SCREEN_ZOOM`, increases the current device density

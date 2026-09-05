@@ -34,7 +34,7 @@
 # Description
 
 Oversecured report:
-![](Oversecured_report.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/075.%20Framework%20—%20Phone%20number%20disclosure%20without%20READ_CALL_LOG%20permission/Oversecured_report.png)
 
 Oversecured detected the use of an implicit intent in the `com/android/internal/telephony/RcsCallTracker.java` file that disclosed the call state change and the caller's phone number. This intent was sent requiring the permission `android.permission.READ_PHONE_STATE`, while the AOSP paradigm requires the permission `android.permission.READ_CALL_LOG` or `android.permission.READ_PRIVILEGED_PHONE_STATE` to access phone numbers in call history.
 

@@ -34,7 +34,7 @@
 # Description
 
 Oversecured found in the app the ability to access a permission-protected resource:
-![](Oversecured_report.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/022.%20Configuration%20update%20—%20Bypassing%20system%20permissions%20and%20accessing%20ConfigProvider%20data/Oversecured_report.png)
 
 This provider had the following declaration:
 ```xml

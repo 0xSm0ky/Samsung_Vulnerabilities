@@ -34,7 +34,7 @@
 # Description
 
 Oversecured found a vulnerability to change device settings in the Call settings system app:
-![](Oversecured_report.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/008.%20Call%20settings%20—%20Changing%20preferred%20network%20type/Oversecured_report.png)
 
 The exported service `com.samsung.android.app.telephonyui.netsettings.ui.preference.service.BixbyRoutineNetworkSetService` exposed its binder to all the apps installed on the same device. During the investigation it turned out that it contains unprotected AIDL methods to get the list of available network types and to change the preffered network type to a custom one.
 

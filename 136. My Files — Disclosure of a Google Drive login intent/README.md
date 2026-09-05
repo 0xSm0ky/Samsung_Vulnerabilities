@@ -34,7 +34,7 @@
 # Description
 
 Oversecured report:
-![](Oversecured_report.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/136.%20My%20Files%20—%20Disclosure%20of%20a%20Google%20Drive%20login%20intent/Oversecured_report.png)
 
 Oversecured found the My Files app using implicit intents to launch activities. They contained an intent for Google Drive login from the Google SDK, which exposed user data. These intents could have been intercepted by any third-party apps installed on the same device.
 

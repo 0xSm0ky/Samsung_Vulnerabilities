@@ -34,8 +34,8 @@
 # Description
 
 Oversecured reported two attack vectors in the exported `com.sec.android.app.samsungapps.api.InstallAgent` service, which contained the exposed AIDL interface `installPackage()`:
-![](Oversecured_report_1.png)
-![](Oversecured_report_2.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/006.%20Galaxy%20Store%20—%20Overwriting%20of%20arbitrary%20files/Oversecured_report_1.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/006.%20Galaxy%20Store%20—%20Overwriting%20of%20arbitrary%20files/Oversecured_report_2.png)
 
 During the investigation, it turned out that this AIDL interface wasn't protected in any way and any third-party app installed on the same device could interact with it. This interface was intended for installing apps, but the code contained server-side validation of the app signature on Samsung servers. However, we were able to find another vector of attack on this code: when the app was not in `.apk` format, but in `.apks` format, the Galaxy Store would first unpack the archive and then individually install the app files. The ZIP decompression method was vulnerable to path-traversal, which made it possible to overwrite arbitrary files before the app was installed.
 

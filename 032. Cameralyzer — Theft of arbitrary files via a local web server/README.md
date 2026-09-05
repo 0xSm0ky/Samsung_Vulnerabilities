@@ -34,7 +34,7 @@
 # Description
 
 Oversecured report:
-![](Oversecured_report.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/032.%20Cameralyzer%20—%20Theft%20of%20arbitrary%20files%20via%20a%20local%20web%20server/Oversecured_report.png)
 
 The app was running a local web server on port `29025`. One of the URL handlers, `/DCIM/`, returned files from the `/sdcard/DCIM` folder, but was also vulnerable to path-traversal. This allowed the attacker, who was on the same network as the victim, to access not only media such as the user's photos or videos, but also any other files that the app had access to.
 

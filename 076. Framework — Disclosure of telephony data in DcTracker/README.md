@@ -34,7 +34,7 @@
 # Description
 
 Oversecured report:
-![](Oversecured_report.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/076.%20Framework%20—%20Disclosure%20of%20telephony%20data%20in%20DcTracker/Oversecured_report.png)
 
 Oversecured discovered the use of an implicit intent in the Samsung Android Framework code in the `com/android/internal/telephony/dataconnection/DcTracker.java` file, which exposed telephony data such as roaming settings, APNs and so on.
 

@@ -34,7 +34,7 @@
 # Description
 
 Oversecured found an exported service with exposed AIDL interfaces:
-![](Oversecured_report.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/020.%20Group%20Sharing%20—%20Interacting%20with%20MobileServiceSocialService%20and%20performing%20arbitrary%20actions%20on%20the%20user's%20behalf/Oversecured_report.png)
 
 The entire functionality of this service was not protected by any security checks, allowing an attacker to perform any action that is available in it. We made a PoC that simply dumps the current registration data from the `getDeviceAuthInfoCached()` method. However, the attacker could also perform any other actions, such as group management, invitations, shared files, and so on.
 

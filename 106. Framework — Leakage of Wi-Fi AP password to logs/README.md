@@ -34,7 +34,7 @@
 # Description
 
 Oversecured found in the file `com/samsung/android/wifi/SemWifiApRestoreHelper.java` logging the password from Wi-Fi AP with 4 first characters removed:
-![](Oversecured_report.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/106.%20Framework%20—%20Leakage%20of%20Wi-Fi%20AP%20password%20to%20logs/Oversecured_report.png)
 
 **Proof of Concept**
 

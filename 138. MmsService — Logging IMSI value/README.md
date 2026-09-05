@@ -34,7 +34,7 @@
 # Description
 
 Oversecured found that the MmsService app logs IMSI value in the `com/android/mms/service/SendRequest.java` file:
-![](Oversecured_report.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/138.%20MmsService%20—%20Logging%20IMSI%20value/Oversecured_report.png)
 
 This file was created in AOSP, but patched in Samsung. The original code from AOSP doesn't log this.
 

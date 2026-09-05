@@ -34,7 +34,7 @@
 # Description
 
 Oversecured report:
-![](Oversecured_report.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/057.%20Samsung%20Members%20—%20Intent%20redirection/Oversecured_report.png)
 
 Oversecured found dynamic registration of an unprotected receiver with the `INSTALLER_CALLBACK` action. When processing a broadcast, it received the `android.intent.extra.INTENT` parameter from the attacker and passed it to `Context.startActivity()`. This led to access to arbitrary activities and content providers with the flag `android:grantUriPermissions="true"`.
 

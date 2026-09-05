@@ -34,7 +34,7 @@
 # Description
 
 Oversecured report:
-![](Oversecured_report.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/107.%20Bluetooth%20—%20Disabling%20Wi-Fi%20P2P/Oversecured_report.png)
 
 The Bluetooth app has been patched by Samsung. In the file `com/samsung/bt/bluetoothcast/mcm/BluetoothAudioCastService.java` they added an unprotected receiver registration which handles the `com.samsung.android.bluetooth.mcf.cast.action.WIFI_SERVICE_DISABLE_RESPONSE` action. If the attacker provides `com.samsung.android.bluetooth.mcf.cast.extra.WIFI_SERVICE_DISABLE_RESPONSE` set to 1 and `com.samsung.android.bluetooth.mcf.cast.extra.WIFI_SERVICE_NAME` set to 4, the app will disable Wi-Fi P2P.
 

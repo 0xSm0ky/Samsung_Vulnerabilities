@@ -34,7 +34,7 @@
 # Description
 
 Oversecured report:
-![](Oversecured_report.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/089.%20Gear%20S%20PlugIn%20—%20XSS%20injection/Oversecured_report.png)
 
 Oversecured found in the Gear S PlugIn app in the `com/samsung/android/gearoplugin/pm/webstore/activity/WebStoreWebViewActivity.java` file dynamic registration of an unprotected broadcast receiver. It accepted the `appID` parameter from the attacker, which was insecurely concatenated to JavaScript code, leading to XSS.
 

@@ -34,7 +34,7 @@
 # Description
 
 Oversecured found a dynamic registration of an unprotected broadcast receiver in the file `com/samsung/android/hardware/secinputdev/SemInputDeviceManagerService.java`:
-![](Oversecured_report.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/105.%20Framework%20—%20Changing%20game%20mode%20and%20scan%20rate/Oversecured_report.png)
 
 This is the body of the method:
 ![](Explanation.png)

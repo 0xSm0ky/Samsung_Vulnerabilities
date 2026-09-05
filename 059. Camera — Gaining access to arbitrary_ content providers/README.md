@@ -34,7 +34,7 @@
 # Description
 
 Oversecured report:
-![](Oversecured_report.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/059.%20Camera%20—%20Gaining%20access%20to%20arbitrary_%20content%20providers/Oversecured_report.png)
 
 Oversecured found that the exported activity `com.sec.android.app.camera.QrScannerActivity` launches an implicit intent. The result of this call goes into `Activity.onActivityResult()`, which is passed on to `Activity.setResult()`. This insecure code results in accessing content providers with the flag `android:grantUriPermissions="true"`.
 

@@ -34,7 +34,7 @@
 # Description
 
 Oversecured report:
-![](Oversecured_report.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/049.%20Samsung%20Email%20—%20Gaining%20access%20to%20arbitrary_%20content%20providers%20via%20MessageCompose%20activity/Oversecured_report.png)
 
 Oversecured found that the content controlled by the attacker via the `onNewIntent()` method gets into `Activity.setResult()`. This causes arbitrary content provider access permissions to be passed to any third-party apps installed on the same device.
 

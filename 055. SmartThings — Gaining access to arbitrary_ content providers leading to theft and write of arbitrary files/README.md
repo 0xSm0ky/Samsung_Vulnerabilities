@@ -34,12 +34,12 @@
 # Description
 
 Oversecured report:
-![](Oversecured_report_1.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/055.%20SmartThings%20—%20Gaining%20access%20to%20arbitrary_%20content%20providers%20leading%20to%20theft%20and%20write%20of%20arbitrary%20files/Oversecured_report_1.png)
 
 Oversecured found the use of an implicit intent to create a `PendingIntent` object for notifications without using the `PendingIntent.FLAG_IMMUTABLE` flag. The attacker's app, if it had access to app notifications, could intercept them and redirect them to its activity, before making it grant content providers with the `android:grantUriPermissions="true"` flag, if the app was running on devices running Android SDK 24-30.
 
 One such provider in the app granted access to arbitrary files, leading to the possibility of arbitrary files being stolen and overwritten:
-![](Oversecured_report_2.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/055.%20SmartThings%20—%20Gaining%20access%20to%20arbitrary_%20content%20providers%20leading%20to%20theft%20and%20write%20of%20arbitrary%20files/Oversecured_report_2.png)
 
 **Proof of Concept**
 

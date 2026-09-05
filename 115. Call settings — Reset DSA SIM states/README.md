@@ -34,7 +34,7 @@
 # Description
 
 Oversecured report:
-![](Oversecured_report.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/115.%20Call%20settings%20—%20Reset%20DSA%20SIM%20states/Oversecured_report.png)
 
 Oversecured found in the Call settings app in the `com/samsung/android/app/telephonyui/netsettings/ui/simcardmanager/NetworkStatusReceiver.java` file handling of the `com.sec.android.app.setupwizard.SETUPWIZARD_COMPLETE` action, which resets DSA SIM states when processing a received broadcast.
 

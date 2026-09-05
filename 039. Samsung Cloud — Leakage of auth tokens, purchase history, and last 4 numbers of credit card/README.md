@@ -34,7 +34,7 @@
 # Description
 
 Oversecured found the use of implicit intents:
-![](Oversecured_report.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/039.%20Samsung%20Cloud%20—%20Leakage%20of%20auth%20tokens,%20purchase%20history,%20and%20last%204%20numbers%20of%20credit%20card/Oversecured_report.png)
 
 These intents could have been intercepted by apps installed on the same device. The point is that some of them contained access tokens or payment information, such as credit card details.
 

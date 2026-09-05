@@ -34,7 +34,7 @@
 # Description
 
 Oversecured report:
-![](Oversecured_report.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/117.%20Call%20settings%20—%20Leakage%20of%20telephony%20data/Oversecured_report.png)
 
 Oversecured found multiple uses of implicit intents in the Call settings app. They contained sensitive data, such as SIM names, photoring phones, changed roaming settings, and so on. These intents could have been intercepted by any third-party apps installed on the same device.
 

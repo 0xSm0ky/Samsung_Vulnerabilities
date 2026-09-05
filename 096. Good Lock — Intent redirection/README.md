@@ -34,7 +34,7 @@
 # Description
 
 Oversecured report:
-![](Oversecured_report.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/096.%20Good%20Lock%20—%20Intent%20redirection/Oversecured_report.png)
 
 Oversecured found a dynamic receiver registration in the Good Lock app with action `com.samsung.android.goodlock.INSTALLER_CALLBACK`. When receiving the broadcast, it received the `android.intent.extra.INTENT` parameter from the attacker and passed it to `Context.startActivity()`. This led to access to arbitrary activities and content providers with the flag `android:grantUriPermissions="true"`.
 

@@ -34,7 +34,7 @@
 # Description
 
 Oversecured report:
-![](Oversecured_report.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/077.%20Framework%20—%20Disclosure%20of%20KDDI%20CPA%20config%20updates/Oversecured_report.png)
 
 Oversecured discovered the use of an implicit intent in the Samsung Android Framework code in the `com/kddi/android/CpaManager.java` file, which exposed KDDI CPA config updates, including credentials.
 

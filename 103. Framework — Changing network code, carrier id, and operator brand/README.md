@@ -34,7 +34,7 @@
 # Description
 
 Oversecured report:
-![](Oversecured_report.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/103.%20Framework%20—%20Changing%20network%20code,%20carrier%20id,%20and%20operator%20brand/Oversecured_report.png)
 
 Oversecured found in the `com/android/internal/telephony/SemChameleonHelper.java` file the unprotected dynamic receiver registration. It handles the `android.intent.action.CHAMELEON_TELEPHONY_UPDATE` action and the fields that are passed to `SystemProperties`:
 - `brandalpha`, set to `ro.ril.cdma.home.operator.alpha`

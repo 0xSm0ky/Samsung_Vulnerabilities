@@ -36,7 +36,7 @@
 We scanned the FactoryCamera app using the Oversecured mobile vulnerability scanner. This app is internal and is used to test the camera. This app is system because it has the setting `android:sharedUserId="android.uid.system"` in the `AndroidManifest.xml` file and thus works from UID 1000. Any vulnerability in it will lead to much more serious consequences than a vulnerability in a regular app.
 
 Oversecured found the following vulnerability:
-![](Oversecured_report.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/002.%20FactoryCamera%20—%20Corruption%20of%20arbitrary%20files%20with%20system%20privilege/Oversecured_report.png)
 
 As you can see, when passing `NCAMTEST_211X` test code, the app took the `arg4` parameter, unsafely concatenated it to the path `/sys/class/camera/flash/` and wrote the value `200` there. Thus, an attacker could take advantage of this vulnerability and create any system files where the value `200` would be written or corrupt already existing ones.
 

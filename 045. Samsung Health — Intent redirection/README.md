@@ -34,7 +34,7 @@
 # Description
 
 Oversecured report:
-![](Oversecured_report.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/045.%20Samsung%20Health%20—%20Intent%20redirection/Oversecured_report.png)
 
 The app received a `launch_intent` from the attacking app, which was passed to `Context.startActivity()`. This led to the ability to launch arbitrary activities and gain access to content providers with the flag `android:grantUriPermissions="true"`.
 

@@ -34,7 +34,7 @@
 # Description
 
 Oversecured found in the Phone app in the file `com/samsung/telephonyui/callsettings/SamsungTuiCallFunctions.java` logging of SIM serial number:
-![](Oversecured_report.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/112.%20Phone%20—%20Logging%20SIM%20serial%20number/Oversecured_report.png)
 
 **Proof of Concept**
 

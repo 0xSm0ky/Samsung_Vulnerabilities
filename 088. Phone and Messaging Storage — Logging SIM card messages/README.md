@@ -34,7 +34,7 @@
 # Description
 
 Oversecured found in the Phone and Messaging Storage app in the file `com/android/providers/telephony/SmsProvider.java` logging messages from the SIM card:
-![](Oversecured_report.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/088.%20Phone%20and%20Messaging%20Storage%20—%20Logging%20SIM%20card%20messages/Oversecured_report.png)
 
 **Proof of Concept**
 

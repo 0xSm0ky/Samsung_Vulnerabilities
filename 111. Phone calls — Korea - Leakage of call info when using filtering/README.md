@@ -34,7 +34,7 @@
 # Description
 
 Oversecured report:
-![](Oversecured_report.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/111.%20Phone%20calls%20—%20Korea%20-%20Leakage%20of%20call%20info%20when%20using%20filtering/Oversecured_report.png)
 
 Oversecured found the Phone calls app using implicit intents in the `com/samsung/server/telecom/advancedcall/assisteddialing/korea/SamsungKoreaRadOutgoingCallFiltering.java` file when the Korean user was using call filtering. These intents disclosed sensitive information about the call being made, such as phone numbers, the user's photo, and other additional information about the user present on the phone.
 

@@ -34,7 +34,7 @@
 # Description
 
 Oversecured report:
-![](Oversecured_report.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/074.%20Framework%20—%20Call%20state%20leakage/Oversecured_report.png)
 
 Oversecured detected the use of implicit intents in the `com/android/internal/telephony/SemTelephonyKnoxHelper.java` file. They didn't require any permissions, they could be intercepted by any third-party apps installed on the same device. These intents disclosed phone call states. Standard AOSP intents usually require the `android.permission.READ_PHONE_STATE` permission.
 

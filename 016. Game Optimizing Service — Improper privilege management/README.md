@@ -34,7 +34,7 @@
 # Description
 
 Oversecured found a service with exposed AIDL interfaces:
-![](Oversecured_report.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/016.%20Game%20Optimizing%20Service%20—%20Improper%20privilege%20management/Oversecured_report.png)
 
 We found that every AIDL interface performs a package name and UID check internally. And only then some action is performed or data is returned. However, this check was not implemented securely enough, so it could be bypassed:
 ```java

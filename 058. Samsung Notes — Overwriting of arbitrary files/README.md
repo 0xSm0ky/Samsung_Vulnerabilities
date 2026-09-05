@@ -34,7 +34,7 @@
 # Description
 
 Oversecured report:
-![](Oversecured_report.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/058.%20Samsung%20Notes%20—%20Overwriting%20of%20arbitrary%20files/Oversecured_report.png)
 
 As we can see from the screenshot, the app insecurely concatenates the value of `Uri.getLastPathSegment()` to the file path and saves content from the attacker-controlled URI to the resulting path. This allowed the attacker to overwrite arbitrary files.
 

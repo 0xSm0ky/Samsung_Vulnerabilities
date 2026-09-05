@@ -34,7 +34,7 @@
 # Description
 
 Oversecured found the ability to change Wi-Fi AP D2D MHS settings in the file `com/samsung/android/server/wifi/softap/smartethering/SemWifiApSmartD2DMHS.java`, this is the receiver registration:
-![](Oversecured_report.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/078.%20Framework%20—%20Enabling%20and%20disabling%20Wi-Fi%20MHS%20D2D%20advertise/Oversecured_report.png)
 
 This is how the body of the method looks like:
 ![](Body.png)

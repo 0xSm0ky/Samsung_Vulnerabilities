@@ -34,7 +34,7 @@
 # Description
 
 Oversecured found three uses of implicit intents when starting activities:
-![](Oversecured_report.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/082.%20Settings%20—%20Logging%20NAI%20value/Oversecured_report.png)
 
 These intents disclosed data about the connected devices and shared files to third-party apps installed on the same device.
 

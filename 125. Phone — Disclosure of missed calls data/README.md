@@ -34,7 +34,7 @@
 # Description
 
 Oversecured report:
-![](Oversecured_report.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/125.%20Phone%20—%20Disclosure%20of%20missed%20calls%20data/Oversecured_report.png)
 
 Oversecured found multiple uses of implicit intents in the Phone app when sending broadcasts. They contained sensitive data, such as missed calls data in the `com/samsung/android/dialer/notification/view/CallLogNotificationActivity.java` file. These intents could be intercepted by any third-party apps installed on the same device.
 

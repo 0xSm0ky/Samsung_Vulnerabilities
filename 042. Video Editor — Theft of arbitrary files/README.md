@@ -34,7 +34,7 @@
 # Description
 
 Oversecured report:
-![](Oversecured_report.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/042.%20Video%20Editor%20—%20Theft%20of%20arbitrary%20files/Oversecured_report.png)
 
 The app contained an unprotected dynamically registered receiver in the `com/sec/android/app/vepreload/singleedit/controller/VECaptionControllerBase.java` file. In the case of the `com.sec.android.app.vepreload.fetchFont` action, it took from the attacker the value of `uri`, which was used as the URI from which the app received data, and the value of `font_name`, which was used as the file name, vulnerable to path-traversal. This vulnerability allowed arbitrary files to be stolen and overwritten.
 

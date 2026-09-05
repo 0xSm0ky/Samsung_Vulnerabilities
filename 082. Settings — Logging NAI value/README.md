@@ -34,7 +34,7 @@
 # Description
 
 Oversecured found the NAI value logging in the Settings app in the `com/samsung/android/settings/deviceinfo/status/UserNamePreferenceController.java` file:
-![](Oversecured_report.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/082.%20Settings%20—%20Logging%20NAI%20value/Oversecured_report.png)
 
 **Proof of Concept**
 

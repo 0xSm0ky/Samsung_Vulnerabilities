@@ -34,7 +34,7 @@
 # Description
 
 Oversecured found a vulnerability to open arbitrary URLs in the EsimClient app:
-![](Oversecured_report.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/007.%20EsimClient%20—%20Opening%20arbitrary%20URLs%20within%20the%20app/Oversecured_report.png)
 
 The exported activity `com.samsung.android.app.telephonyui.esimclient.OdaWebViewActivity` receives a `Serializable` object of type `com.samsung.oda.lib.message.data.WebViewData`, which contains the `mUrl` field. This string is then passed to `WebView.loadUrl()`, which causes arbitrary URLs to be opened within the app.
 

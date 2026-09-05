@@ -34,7 +34,7 @@
 # Description
 
 Oversecured report:
-![](Oversecured_report.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/084.%20Phone%20calls%20—%20Leakage%20of%20Wi-Fi%20made%20calls/Oversecured_report.png)
 
 Oversecured found in the Phone calls app in the file `com/samsung/server/telecom/advancedcall/wificall/SamsungUsaWpsAlertActivity.java` sending implicit intents with the action `com.samsung.server.telecom.USER_SELECT_WIFI_SERVICE_CALL`, which contained all information on the Wi-Fi call being made.
 

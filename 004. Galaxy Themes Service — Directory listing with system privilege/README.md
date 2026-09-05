@@ -34,7 +34,7 @@
 # Description
 
 Oversecured discovered a file path spoofing vulnerability in Galaxy Themes Service app:
-![](Oversecured_report.png)
+![](04%20رئيسية/Samsung%20Vulnerabilities/004.%20Galaxy%20Themes%20Service%20—%20Directory%20listing%20with%20system%20privilege/Oversecured_report.png)
 
 While investigating, it turned out that the `com.samsung.android.thememanager.ThemeManagerService` service was exported and allowed any third-party apps to get its binder. One of the AIDL interfaces, `getWallpaperFilePath()`, would get part of the file path and concatenate it to the existing path `/data/overlays/homewallpaper/`, then return the result of the `File.listFiles()` method call back to the attacker. This led to a directory listing vulnerability via path traversal.
 
